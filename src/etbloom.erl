@@ -16,6 +16,7 @@
     member/2, add/2,
     size/1, capacity/1]).
 -export([is_element/2, add_element/2]). % alternative names
+-import(bitarray, [new/1, new/2, sub/2, update/3]).
 -import(math, [log/1, pow/2]).
 
 is_element(E, B) -> member(E, B).
